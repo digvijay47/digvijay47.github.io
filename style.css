@@ -35,7 +35,7 @@ table,tr,td,th{
     height: 60px;
     position: absolute;
     top: 0%;
-    background-color: wheat;
+    background-color: rgb(41, 255, 144);
 }
 .wrapper .table{
     position: relative;
@@ -58,8 +58,22 @@ table,tr,td,th{
     margin: 20px;
     border: 1px solid gray;
     border-radius: 25%;
+    background-color: #fe0707;
 }
 .wrapper2{
     display:ruby-base-container;
     background-color: aquamarine;
 }
+button {
+    background-color: rgb(250, 6, 6);
+    border: solid 1px rgb(255, 3, 3);
+    border-radius: 3px;
+    padding: 3px;
+    
+    }
+    button:hover {
+    background-color:rgb(255, 255, 255);
+    color:rgb(255, 0, 0);
+    cursor: crosshair;
+    }
+    button:active {background-color:rgb(254, 254, 254)
