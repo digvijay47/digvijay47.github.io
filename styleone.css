@@ -1,0 +1,27 @@
+.card-text{
+    font-size: 10px;
+    color: green;
+    font-weight: bold;
+
+}
+
+.card-deck{
+    display:inline-flex;
+    padding:10px;
+    width:100%;
+
+}
+
+.deck-cardTwo{
+    display:inline-flex;
+    padding:10px;
+    margin: 10px;
+  
+    
+}
+
+.cardtwo{
+    padding:2px;
+    border:solid 1px rgb(75, 75, 75,0.2);
+
+}

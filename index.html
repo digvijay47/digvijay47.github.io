@@ -1,31 +1,60 @@
 <html>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="iconStyle.css">
     <head>
-        
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title> My Website</title>
+    <style>
+        
+        @media screen and (max-width: 600px) {
+            .topnav a {
+              float: none;
+              width: 100%;
+            }
+            img { max-width: 200px; max-height: 200px; }
+            table { width: 90%; }
+            @media screen and (min-width: 800px) {
+             img { max-width: 500px; max-height: 300px; }
+             table { width: 800px; }
+            }
+
+          }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
-    <body style="background-color: rgb(15, 163, 200);">
+
+    <body style="background-color: rgb(239, 239, 239);">
         
         <div class="wrapper">
             <div class="menu-tab">
                 <ul>
                    <li><button><a href = "second.html">Second Page</a></button></li>
-                   <li><button><a href = "third.html">Table Page</a></li></button></ul>
-                    
+                   <li><button><a href = "third.html">Table Page</a></li></button>
+                   <li><button><a href = "assignment7.html">assignment7</a></li></button></ul>
+                   
                 </ul>
-                
-            
 
             </div>
         </div>
 
+
         
-     <h2 style="font-family:'Brush Script MT', cursive; font-size:400%;"> Hello World </h2>
+     <h2 style="font-family:'Brush Script MT', cursive; font-size:400%;"> Welcome</h2>
         <img src = "johncena.jpg" width = "500" height="500"><br>
         THIS IS MY <b>FIRST WEBSITE.</b>
+
+        <div class="ico">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+        </div>
+
+        <button onclick="myfunction()">Click me </button>
     
       
 
 
     </body>
+    <script src="script1.js"></script>
+
 </html>
