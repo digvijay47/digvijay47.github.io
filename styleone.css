@@ -25,3 +25,35 @@
     border:solid 1px rgb(75, 75, 75,0.2);
 
 }
+#grid {
+    display: flex;
+    width: 500px;
+  }
+  
+  #grid div {
+    flex-basis: 120px;
+    border: 3px solid rgba(0, 0, 0, 0.2);
+  }
+  .box {
+    flex-shrink: 1;
+  }
+  
+
+
+  body {
+    margin: 40px;
+  }
+  .box {
+    background-color: rgb(11, 255, 218);
+    color: #fff;
+    border-radius: 10px;
+    padding: 40px;
+    font-size: 200%;
+  }
+  .wrapper3 {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 10px;
+    background-color: #fff;
+    color: rgb(182, 108, 108);
+  }
