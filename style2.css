@@ -101,3 +101,15 @@ body{
     width: 90px;
     border-radius: 5px;
 }
+
+@media only screen and (max-width: 435px) {
+    bodY{
+        width:fit-content;
+    }
+    .container{
+        width:80%;
+        font-size: 30px;
+
+    }
+    
+}
