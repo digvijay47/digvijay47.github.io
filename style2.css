@@ -22,9 +22,9 @@ body{
     width: 40%;
     top: 50%;
     left: 50%;
-    background: rgb(85, 190, 255);
+    background: rgb(168, 206, 237);
     border-radius: 10px;
-    min-width: 450px;
+    min-width: 250px;
     position: absolute;
     min-height: 100px;
     transform: translate(-50%,-50%);
@@ -69,7 +69,7 @@ body{
     border-radius: 10px;
     width: 100%;
     position: relative;
-    background-color: #ffffff;
+    background-color: #e6dada;
     padding: 30px 20px;
     margin-top: 10px;
 }
@@ -102,14 +102,22 @@ body{
     border-radius: 5px;
 }
 
-@media only screen and (max-width: 435px) {
-    bodY{
-        width:fit-content;
+@media only screen and (max-width: 500px) {
+  
+    .container #newtask{
+        width:240px;
+        justify-content: center;
     }
     .container{
-        width:80%;
-        font-size: 30px;
-
+        width:220px;
     }
-    
+    .container{
+        width:100px;
+    }
+    .task{
+        width:200px;
+    }
+    #tasks{
+        width:250px;
+    }
 }
