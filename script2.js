@@ -9,7 +9,7 @@ document.querySelector('#push').onclick = function(){
                 <span id="taskname">
                     ${document.querySelector('#newtask input').value}
                 </span>
-                <button class="delete">Completed
+                <button class="delete">Click when  Completed
                     <i class="far fa-trash-alt"></i>
                 </button>
             </div>

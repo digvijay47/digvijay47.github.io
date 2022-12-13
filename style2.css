@@ -22,7 +22,7 @@ body{
     width: 40%;
     top: 50%;
     left: 50%;
-    background: rgb(168, 206, 237);
+    background: rgb(252, 61, 61);
     border-radius: 10px;
     min-width: 250px;
     position: absolute;
@@ -57,7 +57,7 @@ body{
     font-size: 16px;
     background-color: #3d90ef;
     border: none;
-    color: #ffffff;
+    color: #f7f7f7;
     cursor: pointer;
     outline: none;
     width: 20%;
@@ -69,7 +69,7 @@ body{
     border-radius: 10px;
     width: 100%;
     position: relative;
-    background-color: #e6dada;
+    background-color: #52eae2;
     padding: 30px 20px;
     margin-top: 10px;
 }
@@ -80,7 +80,7 @@ body{
     justify-content: space-between;
     border: 1px solid #adc6ce;
     cursor: pointer;
-    background-color: rgb(85, 190, 255);
+    background-color: rgb(255, 215, 85);
     height: 50px;
     margin-bottom: 8px;
     padding: 5px 10px;
@@ -93,7 +93,7 @@ body{
 }
 .task button{
     background-color: #3483e5;
-    color: #ffffff;
+    color: #e7e7e7;
     border: none;
     cursor: pointer;
     outline: none;
